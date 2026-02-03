@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #8b735b; /* Muted Clay */
+  --color-secondary: #d9c5b2; /* Sand */
+  --color-bg: #fdfaf7; /* Warm Off-White */
+  --color-accent: #eaddcf; /* Soft Blush */
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Montserrat", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-stone-800 antialiased;
+  }
+}
